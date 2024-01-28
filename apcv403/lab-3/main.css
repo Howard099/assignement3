@@ -1,0 +1,16 @@
+
+h1{
+	font-size: 3em;
+}
+
+
+@font-face{
+	font-family: 'PermanentMarker';
+	src: url('font/pm.ttf') format('truetype');
+}
+
+
+*{
+	font-family: 'PermanentMarker';
+}
+

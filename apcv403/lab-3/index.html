@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 3 Assignment</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>
+        Using a non standard font
+    </h1>
+
+    <h2>
+        Font name: Permanent Marker 
+    </h2>
+
+    <p>
+        For this week, I was assigned to look for a non-standard font on the internet and to use it throughout my web page. To accomplish that, I first went to Google Fonts and picked a non-standard font named 'Permanent Marker.' I then downloaded the true-type font file from the site. Then I placed my font near my HTML file in a folder called 'fonts.' From there, I only had to export that font with the @font-face declaration where my source was 'URL (fonts/pm.ttf).' My font has been imported; I can now point to it with our old font-family property.
+    </p>
+
+
+
+    
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
